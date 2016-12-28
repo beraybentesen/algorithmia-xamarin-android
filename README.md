@@ -59,7 +59,7 @@ public class AlgorithmiaTask : AsyncTask<string, string, AlgoResponse>
  Execute Task
 
 ```cs
-		new AlgorithmiaTask("simCI3b2pnGDwdxK1XnHrET1bbr1", "algo://demo/Hello/0.1.1").Execute("HAL 9000");
+new AlgorithmiaTask("simCI3b2pnGDwdxK1XnHrET1bbr1", "algo://demo/Hello/0.1.1").Execute("HAL 9000");
 ```
 
 Response should be -> Hello HAL 9000
