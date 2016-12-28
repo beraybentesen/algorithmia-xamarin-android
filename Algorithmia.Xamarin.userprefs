@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{657F3986-801F-4B7D-ADA9-947AAE163BC1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithmia.Xamarin/Transforms/Metadata.xml">
+    <Files>
+      <File FileName="Algorithmia.Xamarin/obj/Release/generated/src/Com.Algorithmia.Client.HttpResponseHandler.cs" Line="12" Column="40" />
+      <File FileName="Algorithmia.Xamarin/Transforms/Metadata.xml" Line="17" Column="97" />
+      <File FileName="Algorithmia.Xamarin/obj/Release/generated/src/Com.Algorithmia.Data.DataDirectoryIterator.cs" Line="7" Column="40" />
+      <File FileName="Algorithmia.Xamarin/obj/Release/generated/src/Com.Algorithmia.Data.DataFileIterator.cs" Line="7" Column="39" />
+      <File FileName="Algorithmia.Xamarin/obj/Release/generated/src/Com.Algorithmia.Algo.FutureAlgoResponse.cs" Line="7" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Algorithmia.Xamarin PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

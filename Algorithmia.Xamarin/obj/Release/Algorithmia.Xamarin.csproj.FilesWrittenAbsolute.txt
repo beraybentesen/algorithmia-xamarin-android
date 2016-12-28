@@ -1,0 +1,7 @@
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Release/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Release/Algorithmia.Xamarin.Jars.algorithmia-android-1.0.1.jar
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/bin/Release/Algorithmia.Xamarin.dll.mdb
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/bin/Release/Algorithmia.Xamarin.dll
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Release/Algorithmia.Xamarin.dll
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Release/Algorithmia.Xamarin.dll.mdb
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/bin/Release/GoogleGson.dll

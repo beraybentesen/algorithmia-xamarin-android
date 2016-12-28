@@ -1,0 +1,4 @@
+com.algorithmia.algo.Algorithm$AlgorithmOptions:Com.Algorithmia.Algo:Algorithm.AlgorithmOptions
+com.algorithmia.algo.Algorithm$AlgorithmOutputType:Com.Algorithmia.Algo:Algorithm.AlgorithmOutputType
+com.algorithmia.algo.ContentType:Com.Algorithmia.Algo:ContentType
+com.algorithmia.data.DataObject$DataObjectType:Com.Algorithmia.Data:DataObject.DataObjectType

@@ -1,0 +1,6 @@
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Debug/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Debug/Algorithmia.Xamarin.Jars.algorithmia-client-1.0.9.jar
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/bin/Debug/Algorithmia.Xamarin.dll.mdb
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/bin/Debug/Algorithmia.Xamarin.dll
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Debug/Algorithmia.Xamarin.dll
+/Users/user/Projects/Algorithmia.Xamarin/Algorithmia.Xamarin/obj/Debug/Algorithmia.Xamarin.dll.mdb

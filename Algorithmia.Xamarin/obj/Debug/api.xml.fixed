@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+  <package name="com.algorithmia">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="AlgorithmException" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="AlgorithmException" static="false" type="com.algorithmia.AlgorithmException" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="com.algorithmia.AlgorithmException">
+        </parameter>
+        <parameter name="p2" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="AlgorithmException" static="false" type="com.algorithmia.AlgorithmException" visibility="public">
+        <parameter name="p0" type="java.lang.Throwable">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="AlgorithmException" static="false" type="com.algorithmia.AlgorithmException" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="java.lang.Throwable">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="AlgorithmException" static="false" type="com.algorithmia.AlgorithmException" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="stacktrace" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="Algorithmia" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="algo" native="false" return="com.algorithmia.algo.Algorithm" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="client" native="false" return="com.algorithmia.AlgorithmiaClient" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="client" native="false" return="com.algorithmia.AlgorithmiaClient" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="client" native="false" return="com.algorithmia.AlgorithmiaClient" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="client" native="false" return="com.algorithmia.AlgorithmiaClient" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dir" native="false" return="com.algorithmia.data.DataDirectory" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="file" native="false" return="com.algorithmia.data.DataFile" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="AlgorithmiaClient" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="AlgorithmiaClient" static="false" type="com.algorithmia.AlgorithmiaClient" visibility="protected">
+        <parameter name="p0" type="com.algorithmia.client.Auth">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="algo" native="false" return="com.algorithmia.algo.Algorithm" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="dir" native="false" return="com.algorithmia.data.DataDirectory" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="file" native="false" return="com.algorithmia.data.DataFile" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="AlgorithmiaConf" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="apiAddress" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="apiKey" native="false" return="java.lang.String" static="true" synchronized="false" visibility="protected">
+      </method>
+    </class>
+  </package>
+  <package name="com.algorithmia.algo">
+    <interface abstract="true" deprecated="not deprecated" final="false" name="AcceptsJson" static="false" visibility="public">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation">
+      </implements>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AlgoAsyncResponse" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="AlgoAsyncResponse" static="false" type="com.algorithmia.algo.AlgoAsyncResponse" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAsyncProtocol" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRequestId" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.algorithmia.algo.Algorithm.AlgorithmOptions&gt;" final="true" name="Algorithm.AlgorithmOptions" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.algorithmia.algo.Algorithm.AlgorithmOptions" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.algorithmia.algo.Algorithm.AlgorithmOptions[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="OUTPUT" static="true" transient="false" type="com.algorithmia.algo.Algorithm.AlgorithmOptions" type-generic-aware="com.algorithmia.algo.Algorithm.AlgorithmOptions" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="STDOUT" static="true" transient="false" type="com.algorithmia.algo.Algorithm.AlgorithmOptions" type-generic-aware="com.algorithmia.algo.Algorithm.AlgorithmOptions" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="TIMEOUT" static="true" transient="false" type="com.algorithmia.algo.Algorithm.AlgorithmOptions" type-generic-aware="com.algorithmia.algo.Algorithm.AlgorithmOptions" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.algorithmia.algo.Algorithm.AlgorithmOutputType&gt;" final="true" name="Algorithm.AlgorithmOutputType" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromParameter" native="false" return="com.algorithmia.algo.Algorithm.AlgorithmOutputType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.algorithmia.algo.Algorithm.AlgorithmOutputType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.algorithmia.algo.Algorithm.AlgorithmOutputType[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="DEFAULT" static="true" transient="false" type="com.algorithmia.algo.Algorithm.AlgorithmOutputType" type-generic-aware="com.algorithmia.algo.Algorithm.AlgorithmOutputType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="RAW" static="true" transient="false" type="com.algorithmia.algo.Algorithm.AlgorithmOutputType" type-generic-aware="com.algorithmia.algo.Algorithm.AlgorithmOutputType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VOID" static="true" transient="false" type="com.algorithmia.algo.Algorithm.AlgorithmOutputType" type-generic-aware="com.algorithmia.algo.Algorithm.AlgorithmOutputType" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AlgorithmRef" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="AlgorithmRef" static="false" type="com.algorithmia.algo.AlgorithmRef" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="algoUri" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.algorithmia.algo.ContentType&gt;" final="true" name="ContentType" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromString" native="false" return="com.algorithmia.algo.ContentType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.algorithmia.algo.ContentType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.algorithmia.algo.ContentType[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="Binary" static="true" transient="false" type="com.algorithmia.algo.ContentType" type-generic-aware="com.algorithmia.algo.ContentType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="Json" static="true" transient="false" type="com.algorithmia.algo.ContentType" type-generic-aware="com.algorithmia.algo.ContentType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="Text" static="true" transient="false" type="com.algorithmia.algo.ContentType" type-generic-aware="com.algorithmia.algo.ContentType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="Void" static="true" transient="false" type="com.algorithmia.algo.ContentType" type-generic-aware="com.algorithmia.algo.ContentType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="name" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="Metadata" static="false" visibility="public">
+      <implements name="java.io.Serializable" name-generic-aware="java.io.Serializable">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="Metadata" static="false" type="com.algorithmia.algo.Metadata" visibility="public">
+        <parameter name="p0" type="com.algorithmia.algo.ContentType">
+        </parameter>
+        <parameter name="p1" type="java.lang.Double">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="Metadata" static="false" type="com.algorithmia.algo.Metadata" visibility="public">
+        <parameter name="p0" type="com.algorithmia.algo.ContentType">
+        </parameter>
+        <parameter name="p1" type="java.lang.Double">
+        </parameter>
+        <parameter name="p2" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getContentType" native="false" return="com.algorithmia.algo.ContentType" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getDuration" native="false" return="java.lang.Double" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStdout" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="ReturnsJson" static="false" visibility="public">
+      <implements name="java.lang.annotation.Annotation" name-generic-aware="java.lang.annotation.Annotation">
+      </implements>
+    </interface>
+  </package>
+  <package name="com.algorithmia.client">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="false" name="HttpClient.1" static="true" visibility="" />
+  </package>
+  <package name="com.algorithmia.data">
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AbstractDataIterator" static="false" visibility="public">
+      <typeParameters>
+        <typeParameter name="T" />
+      </typeParameters>
+      <implements name="java.util.Iterator" name-generic-aware="java.util.Iterator&lt;T&gt;">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="AbstractDataIterator" static="false" type="com.algorithmia.data.AbstractDataIterator" visibility="protected">
+        <parameter name="p0" type="com.algorithmia.data.DataDirectory">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasNext" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="loadNextPage" native="false" return="void" static="false" synchronized="false" visibility="protected">
+        <exception name="APIException" type="com.algorithmia.APIException">
+        </exception>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="newDataObjectInstance" native="false" return="T" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="next" native="false" return="T" static="false" synchronized="false" visibility="public">
+        <exception name="NoSuchElementException" type="java.util.NoSuchElementException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="true" name="setChildrenAndMarker" native="false" return="void" static="false" synchronized="false" visibility="protected">
+        <parameter name="p0" type="java.util.List&lt;java.lang.String&gt;">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="false" name="dir" static="false" transient="false" type="com.algorithmia.data.DataDirectory" type-generic-aware="com.algorithmia.data.DataDirectory" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="marker" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataAcl" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DataAcl" static="false" type="com.algorithmia.data.DataAcl" visibility="public">
+        <parameter name="p0" type="com.algorithmia.data.DataAclType">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromAclResponse" native="false" return="com.algorithmia.data.DataAcl" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.Map&lt;java.lang.String, java.util.List&lt;java.lang.String&gt;&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getReadPermissions" native="false" return="com.algorithmia.data.DataAclType" static="false" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="MY_ALGOS" static="true" transient="false" type="com.algorithmia.data.DataAcl" type-generic-aware="com.algorithmia.data.DataAcl" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PRIVATE" static="true" transient="false" type="com.algorithmia.data.DataAcl" type-generic-aware="com.algorithmia.data.DataAcl" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PUBLIC" static="true" transient="false" type="com.algorithmia.data.DataAcl" type-generic-aware="com.algorithmia.data.DataAcl" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="read" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;java.lang.String&gt;" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataAclType" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DataAclType" static="false" type="com.algorithmia.data.DataAclType" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;java.lang.String&gt;">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromAclStrings" native="false" return="com.algorithmia.data.DataAclType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.util.List&lt;java.lang.String&gt;">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAclStrings" native="false" return="java.util.List&lt;java.lang.String&gt;" static="false" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="false" name="MY_ALGOS" static="true" transient="false" type="com.algorithmia.data.DataAclType" type-generic-aware="com.algorithmia.data.DataAclType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="MY_ALGOS_PERMISSIONS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;algo://.my/*&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="PRIVATE" static="true" transient="false" type="com.algorithmia.data.DataAclType" type-generic-aware="com.algorithmia.data.DataAclType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="PUBLIC" static="true" transient="false" type="com.algorithmia.data.DataAclType" type-generic-aware="com.algorithmia.data.DataAclType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="PUBLIC_PERMISSIONS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;user://*&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.1" static="false" visibility="">
+      <implements name="java.lang.Iterable" name-generic-aware="java.lang.Iterable&lt;com.algorithmia.data.DataFile&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="iterator" native="false" return="com.algorithmia.data.DataFileIterator" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.2" static="false" visibility="">
+      <implements name="java.lang.Iterable" name-generic-aware="java.lang.Iterable&lt;com.algorithmia.data.DataDirectory&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="iterator" native="false" return="com.algorithmia.data.DataDirectoryIterator" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.CreateDirectoryRequest" static="false" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.DirectoryListResponse" static="false" visibility="protected">
+      <constructor deprecated="not deprecated" final="false" name="DataDirectory.DirectoryListResponse" static="false" type="com.algorithmia.data.DataDirectory.DirectoryListResponse" visibility="protected">
+        <parameter name="p0" type="java.util.List&lt;com.algorithmia.data.DataDirectory.FileMetadata&gt;">
+        </parameter>
+        <parameter name="p1" type="java.util.List&lt;com.algorithmia.data.DataDirectory.DirectoryMetadata&gt;">
+        </parameter>
+        <parameter name="p2" type="java.lang.String">
+        </parameter>
+        <parameter name="p3" type="java.util.Map&lt;java.lang.String, java.util.List&lt;java.lang.String&gt;&gt;">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="acl" static="false" transient="false" type="java.util.Map" type-generic-aware="java.util.Map&lt;java.lang.String, java.util.List&lt;java.lang.String&gt;&gt;" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="files" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;com.algorithmia.data.DataDirectory.FileMetadata&gt;" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="folders" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;com.algorithmia.data.DataDirectory.DirectoryMetadata&gt;" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="marker" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.DirectoryMetadata" static="false" visibility="protected">
+      <constructor deprecated="not deprecated" final="false" name="DataDirectory.DirectoryMetadata" static="false" type="com.algorithmia.data.DataDirectory.DirectoryMetadata" visibility="protected">
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="name" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.FileMetadata" static="false" visibility="protected">
+      <constructor deprecated="not deprecated" final="false" name="DataDirectory.FileMetadata" static="false" type="com.algorithmia.data.DataDirectory.FileMetadata" visibility="protected">
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="false" name="filename" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="protected" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataDirectory.UpdateDirectoryRequest" static="false" visibility="" />
+    <class abstract="true" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DataObject" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="DataObject" static="false" type="com.algorithmia.data.DataObject" visibility="public">
+        <parameter name="p0" type="com.algorithmia.client.HttpClient">
+        </parameter>
+        <parameter name="p1" type="java.lang.String">
+        </parameter>
+        <parameter name="p2" type="com.algorithmia.data.DataObject.DataObjectType">
+        </parameter>
+      </constructor>
+      <method abstract="true" deprecated="not deprecated" final="false" name="exists" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <exception name="APIException" type="com.algorithmia.APIException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getParent" native="false" return="com.algorithmia.data.DataDirectory" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getType" native="false" return="com.algorithmia.data.DataObject.DataObjectType" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUrl" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isDirectory" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isFile" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="client" static="false" transient="false" type="com.algorithmia.client.HttpClient" type-generic-aware="com.algorithmia.client.HttpClient" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="dataType" static="false" transient="false" type="com.algorithmia.data.DataObject.DataObjectType" type-generic-aware="com.algorithmia.data.DataObject.DataObjectType" visibility="protected" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="path" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.algorithmia.data.DataObject.DataObjectType&gt;" final="true" name="DataObject.DataObjectType" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.algorithmia.data.DataObject.DataObjectType" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.algorithmia.data.DataObject.DataObjectType[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="DIRECTORY" static="true" transient="false" type="com.algorithmia.data.DataObject.DataObjectType" type-generic-aware="com.algorithmia.data.DataObject.DataObjectType" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FILE" static="true" transient="false" type="com.algorithmia.data.DataObject.DataObjectType" type-generic-aware="com.algorithmia.data.DataObject.DataObjectType" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+</api>

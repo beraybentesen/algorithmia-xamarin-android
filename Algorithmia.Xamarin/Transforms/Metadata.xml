@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+<!--<remove-node path="/api/package[@name='com.algorithmia.algo']/class[@name='FutureAlgoResponse']" />
+<remove-node path="/api/package[@name='com.algorithmia.data']/class[@name='DataDirectoryIterator']"/>-->
+<remove-node path="/api/package[@name='com.algorithmia.client']/class[@name='HttpResponseHandler.AlgoResponseHandler']/method[@name='handleResponse' and count(parameter)=1 and parameter[1][@type='com.algorithmia.client.HttpResponse']]"/>
+<remove-node path="/api/package[@name='com.algorithmia.data']/class[@name='DataDirectoryIterator']/method[@name='newDataObjectInstance' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"/>
+<remove-node path="/api/package[@name='com.algorithmia.data']/class[@name='DataFileIterator']/method[@name='newDataObjectInstance' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"/>
+<remove-node path="/api/package[@name='com.algorithmia.algo']/class[@name='FutureAlgoResponse']"/>
+<remove-node path="/api/package[@name='com.algorithmia.client']/class[@name='HttpResponseHandler.AlgoResponseHandler']"/>
+<remove-node path="/api/package[@name='com.algorithmia.data']/class[@name='DataDirectoryIterator']"/>
+<remove-node path="/api/package[@name='com.algorithmia.data']/class[@name='DataFileIterator']"/>
+
+
+	
+
+</metadata>
